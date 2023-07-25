@@ -1,3 +1,4 @@
+import Feed from "@components/Feed";
 export default function Home() {
   return (
     <section className="w-full flex-center flex-col mt-[100px]">
@@ -10,6 +11,7 @@ export default function Home() {
         Effective communication is critical to the success of any organization.
         conflicts, and a lack of productivity.
       </p>
+      <Feed />
     </section>
   );
 }

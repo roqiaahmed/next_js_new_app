@@ -14,7 +14,7 @@ function Nav() {
     useEffect(()=> {
       const setUpproviders = async () => {
         const res = await getProviders();
-        console.log(res);
+        console.log("pro",res);
         setProviders(res);
       }
       setUpproviders();
